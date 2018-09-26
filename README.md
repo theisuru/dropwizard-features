@@ -1,5 +1,5 @@
 # dropwizard-features
-Includes different features of Dropwizard
+Includes different features of Dropwizard. Just a quick and dirty sample project for a stackoverflow question.
 
 
 ## Static Assets
