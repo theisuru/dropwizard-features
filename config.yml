@@ -1,2 +1,7 @@
 template: Hello, %s!
 defaultName: Stranger
+
+server:
+  type: simple
+  rootPath: /api/
+  applicationContextPath: /

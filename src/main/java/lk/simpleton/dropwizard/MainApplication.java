@@ -1,6 +1,7 @@
 package lk.simpleton.dropwizard;
 
 import io.dropwizard.Application;
+import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import lk.simpleton.dropwizard.health.TemplateHealthCheck;
@@ -26,7 +27,7 @@ public class MainApplication extends Application<AppConfig> {
 
     @Override
     public void initialize(Bootstrap<AppConfig> bootstrap) {
-        // nothing to do yet
+        bootstrap.addBundle(new AssetsBundle("/assets/", "/"));
     }
 
     @Override
