@@ -2,7 +2,7 @@
 Includes different features of Dropwizard
 
 
-##Static Assets
+## Static Assets
 Compile and run the application. Go to following URLs for static assets.
 
 http://localhost:8080
